@@ -20,7 +20,7 @@ User.prototype = {
       ret.push(this.lastname);
     }
     if(ret.length >= 2){
-      ret.unshift('Mr.')
+      ret.unshift('Mr.'); // side effect
     }
     return ret.join(' ');
   }
