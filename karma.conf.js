@@ -15,7 +15,12 @@ module.exports = function(config) {
 
     
     // list of files / patterns to load in the browser
-    files: ['test/*_spec.js', 'js/*.js'
+    files: [
+      'bower_components/jquery/dist/jquery.js',
+      'bower_components/underscore/underscore.js',
+      'bower_components/backbone/backbone.js',
+      'js/*.js',
+      'test/*_spec.js'
     ],
 
 

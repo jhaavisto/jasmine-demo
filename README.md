@@ -1,5 +1,5 @@
 brew install phantomjs
-npm install karma karma-cli -g
+npm install karma karma-cli bower -g
 npm i
 
 
