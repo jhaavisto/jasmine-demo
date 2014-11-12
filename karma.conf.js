@@ -20,6 +20,7 @@ module.exports = function(config) {
       'bower_components/underscore/underscore.js',
       'bower_components/backbone/backbone.js',
       'js/*.js',
+      'test/helpers/mock_responses.js',
       'test/*_spec.js'
     ],
 

@@ -1,5 +1,7 @@
 describe('User', function () {
+
   var user;
+
   beforeEach(function () {
     user = new User();
   });
@@ -8,12 +10,12 @@ describe('User', function () {
     expect(user).toBeDefined();
   });
 
-  it("should set fname separately", function() {
+  it("should set first name separately", function() {
     user.setFirstName('Clark');
     expect(user.name()).toBe('Clark')
   });
 
-  it("should set fname separately", function() {
+  it("should set last name separately", function() {
     user.setLastName('Kent');
     expect(user.name()).toBe('Kent')
   });
@@ -23,4 +25,9 @@ describe('User', function () {
     user.setFirstName('Clark');
     expect(user.name()).toBe('Mr. Clark Kent')
   });
+
 });
+
+
+
+

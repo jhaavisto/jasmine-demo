@@ -1,5 +1,5 @@
-var mocks = {
-  redditResponse: {
+var TestResponses = {
+  get: {
     "kind": "Listing",
     "data": {
       "modhash": "",

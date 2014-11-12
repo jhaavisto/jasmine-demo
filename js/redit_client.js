@@ -1,10 +1,9 @@
 var ReditItem = Backbone.Model.extend({
   parse: function(data){
     return _.pick(data, 
-      'name', 
       'subreddit', 
       'title', 
-      'permalink', 
+      'url',
       'thumbnail');
   }
 });
